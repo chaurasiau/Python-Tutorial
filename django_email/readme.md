@@ -1,1 +1,1 @@
-# https://www.sitepoint.com/django-send-email/
+<!-- # https://www.sitepoint.com/django-send-email/ -->
