@@ -5,6 +5,8 @@ name = "pypi"
 
 [packages]
 webdriver-manager = "*"
+greenlet = "*"
+gevent = "*"
 
 [dev-packages]
 
