@@ -1,4 +1,11 @@
 def roman_to_int(roman):
+    """
+    We iterate through the string, adding the value of the current character to the result, unless the
+    current character is less than the next character, in which case we subtract it instead
+
+    :param roman: the roman numeral string
+    :return: The integer value of the roman numeral.
+    """
     roman_dict = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500,
                   'M': 1000, 'IV': 4, 'IX': 9, 'XL': 40, 'XC': 90, 'CD': 400, 'CM': 900}
 
