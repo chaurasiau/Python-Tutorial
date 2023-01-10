@@ -7,6 +7,7 @@ name = "pypi"
 webdriver-manager = "*"
 greenlet = "*"
 gevent = "*"
+flask = "*"
 
 [dev-packages]
 
